@@ -1,0 +1,7 @@
+{
+  "name": "CommonCode",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
