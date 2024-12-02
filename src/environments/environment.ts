@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  title: 'Local Environment',
+  // apiURL: 'http://192.168.0.91:9091/', //mani
+  apiURL: 'https://lendperfectpre.janabank.com/',   //PreProd 
+  // apiURL: 'https://lendperfect.janabank.com/',  //production
+  localKarza:false,
+  patch: 'LIVE',
+  pointLocal: false, // to bypass sms/otp function in local environment set to true.
+  local : false,
+  uatlive : true
 };
 
 /*

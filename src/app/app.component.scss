@@ -1,0 +1,130 @@
+.userdet {
+    text-align: center;
+}
+
+.power {
+    position: relative;
+    margin: 10px;
+    zoom: 1.5;
+}
+
+.avatarImg {
+    margin: auto auto 10px auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.custId {
+    color: #c9c9c9;
+    font-size: 90%;
+    margin-top: .4em;
+}
+
+ion-menu .list-md {
+    padding: 0 !important;
+    margin: 5px;
+    // border-bottom: solid 1.4px #c9c9c9;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+::slotted(ion-icon[slot="start"]) {
+    margin-right: unset;
+    margin-inline-end: 32px !important;
+}
+
+.containerMenu {
+    display: grid;
+    text-align: center;
+
+    // grid-template-columns: auto auto;
+    ion-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.menu-header-bg {
+    height: 180px;
+    width: 350px;
+    background: #da107fba;
+    background: linear-gradient(162deg, #da107e 40%, #fba41d 95%);
+    margin-left: -18px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 15%;
+        border: 4px solid #fba41d;
+    }
+
+    h2 {
+        font-weight: bolder;
+        color: #da107e;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 12px;
+        color: red;
+        font-weight: 100;
+        letter-spacing: 0.4px;
+    }
+}
+
+.menu-items {
+    margin: 0px;
+
+    ion-icon {
+        margin-right: 20px;
+        color: #86979f;
+    }
+
+    ion-item {
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .active {
+        border-left: 5px solid;
+        color: #FCB53E; //#EF0F69  #FCB53E-yellow
+        padding-left: 15px;
+
+        ion-icon {
+            color: #FCB53E;
+
+        }
+    }
+}
+
+.fgtPwd {
+    text-align: center;
+    width: 100vw;
+}
+
+.forgetLabel {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-decoration: underline;
+    color: #EF0F69;
+}

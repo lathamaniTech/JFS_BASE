@@ -1,3 +1,38 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <div class="header-content">
+          <img src="../assets/imgs/userpro.png" alt="">
+          <ion-label>
+            <h2 style="text-align: center;">{{fname}}</h2>
+            <h4>{{myDate | date: 'short'}}</h4>
+          </ion-label>
+        </div>
+
+        <ion-list class="menu-items" lines="none" *ngFor="let page of pages">
+          <ion-menu-toggle>
+            <ion-item [routerLink]="page.component" routerLinkActive="active" routerDirection="root" skipLocationChange
+              replaceUrl (click)="openPage(page)">
+              <ion-icon [name]="page.icon" slot="start"></ion-icon>
+              {{page.title}}
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+
+      <ion-footer style="box-shadow: 0 5px 5px 5px #333;" (click)="logout()">
+        <ion-toolbar style="--background: #fba41d !important;">
+          <ion-menu-toggle>
+            <div class="containerMenu">
+              <div style='text-align: center;margin: 0 auto;margin-top: 10px; border-radius: 40px ; color :"white"'>LOG
+                OUT</div>
+            </div>
+          </ion-menu-toggle>
+        </ion-toolbar>
+      </ion-footer>
+
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>

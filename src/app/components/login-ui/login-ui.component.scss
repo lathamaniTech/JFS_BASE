@@ -1,0 +1,111 @@
+.loginTitle {
+    font-size: 24px !important;
+    // margin-top: 70px !important;
+    color: white;
+}
+
+.myLogo {
+    height: auto !important;
+    width: 60% !important;
+    margin: 75px 0px 40px 0px !important;
+}
+
+.loginCard {
+    margin: 0 auto !important;
+    width: 75% !important;
+    text-align: center;
+    --background: linear-gradient(to bottom, #fba41d 0%, #da107e 100%) !important;
+    border-radius: 5%;
+}
+
+.loginContent {
+    --background: transparent !important;
+    margin: 20px 50px 55px 50px !important;
+}
+
+.loginIcon {
+    zoom: 1.8;
+    margin-right: 5px;
+}
+
+// .item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner{
+//     box-shadow: inset 0 -1px 0 0 white;
+// }
+// .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating] {
+//     color: white !important;
+// }
+.loginInput {
+    border-bottom: 1px solid white !important;
+    box-shadow: inset 0 -1px 0 0 white !important;
+    --background: transparent !important;
+    color: white !important;
+}
+
+// .item-md{
+//     --background: transparent !important;
+//     color:white !important;
+// }
+.inputval {
+    width: 50%;
+    padding: 12px;
+    color: white !important;
+    --background: #fba41d;
+    border-radius: 50px;
+    margin-top: 20%;
+    resize: vertical;
+}
+
+.item-input .label-md {
+    --color: wheat !important;
+}
+
+.btn {
+    margin-bottom: 10% !important;
+    color: #e6ffff !important;
+    background: #fba41d;
+    border: 1px solid #000000 !important;
+    font-weight: bold !important;
+}
+
+.bottom {
+    font-size: 21px;
+    color: white;
+}
+
+.loginbtn {
+    width: 90%;
+    margin: 30px auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 36px;
+    font-family: fantasy;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panResponse {
+    color: #da107e !important;
+    margin: 2px 0px 0px 0px;
+}
+
+.lendPerfect {
+    color: #da107e;
+    margin: 2px auto 30px auto !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.background {
+    position: absolute;
+    color: #000000 !important;
+    bottom: 5px;
+    margin: 0px;
+    text-align: center !important;
+    width: 100%;
+}
+
+.scroll-content {
+    padding: 0px !important;
+}

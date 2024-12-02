@@ -1,0 +1,44 @@
+<ion-content padding style="text-align:center; --background: bisque;">
+  <div class="fullWidth">
+    <img src="assets/imgs/JSB_logo.png" class="myLogo" />
+    <div class="lendPerfect">Powered by LEND<i>perfect</i></div>
+    <ion-card class="loginCard">
+      <div>
+        <p class="loginTitle">WELCOME</p>
+      </div>
+      <div>
+        <ion-item class="loginInput">
+          <ion-row style="display: flex;align-items: center;width: 100%;">
+            <ion-col size="2">
+              <ion-icon name="person" class="loginIcon"></ion-icon>
+            </ion-col>
+            <ion-col size="10">
+              <ion-label style="color: whitesmoke !important;" position="floating">
+                User Name
+              </ion-label>
+              <ion-input type="text" formArrayName="username">
+              </ion-input>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+        <ion-item class="loginInput">
+          <ion-row style="display: flex;align-items: center;width: 100%;">
+            <ion-col size="2">
+              <ion-icon name="lock-closed" class="loginIcon"></ion-icon>
+            </ion-col>
+            <ion-col size="10">
+              <ion-label style="color: whitesmoke !important;" position="floating">
+                Password
+              </ion-label>
+              <ion-input type="password"
+                formControlName="password"></ion-input>
+            </ion-col>
+          </ion-row>
+        </ion-item>
+        <button block class="inputval btn" (click)="login()">LOGIN</button>
+      </div>
+    </ion-card>
+  </div>
+
+</ion-content>
+<div class="background" (click)="openAuditLogs()">&copy; SysArc Infomatix - LEND<i>perfect</i> - v{{version}}</div>
